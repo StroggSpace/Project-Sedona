@@ -342,7 +342,7 @@ body {
 
 .welcome-background {
   background-color: rgba(131, 179, 211, 1);
-  background-image: url("/image/header-background.jpg");
+  background-image: url("../image/header-background.jpg");
   background-repeat: no-repeat;
   position: relative;
   width: 1200px;
@@ -352,7 +352,7 @@ body {
 }
 
 .welcome-svg {
-  background-image: url("/image/welcome.svg");
+  background-image: url("../image/welcome.svg");
   background-repeat: no-repeat;
   width: 458px;
   height: 352px;
@@ -364,7 +364,7 @@ body {
 }
 
 .decorated-background {
-  background-image: url("/image/border-header.svg");
+  background-image: url("../image/border-header.svg");
   width: 1200px;
   height: 57px;
   flex-shrink: 0;
@@ -460,17 +460,17 @@ body {
 }
 
 .advantages-inner-item-house {
-  background-image: url("/image/home-icon.svg");
+  background-image: url("../image/home-icon.svg");
   background-size: 75px 72px;
 }
 
 .advantages-inner-item-food {
-  background-image: url("/image/food-icon.svg");
+  background-image: url("../image/food-icon.svg");
   background-size: 74px 70px;
 }
 
 .advantages-inner-item-present {
-  background-image: url("/image/gift-icon.svg");
+  background-image: url("../image/gift-icon.svg");
   background-size: 64px 76px;
 }
 
@@ -548,7 +548,7 @@ body {
 .email-bar {
   display: flex;
   flex-direction: column;
-  background-image: url("/image/email-background.jpg");
+  background-image: url("../image/email-background.jpg");
   color: rgba(255, 255, 255, 1);
   width: 1200px;
   height: 411px;
@@ -589,7 +589,7 @@ body {
   left: -7px;
   width: 5px;
   height: 8px;
-  background-image: url("/image/catalog/bread-crunch-arrow.svg");
+  background-image: url("../image/catalog/bread-crunch-arrow.svg");
   opacity: 0.3;
 }
 
@@ -620,7 +620,7 @@ body {
   height: 27px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url("/image/catalog/bread-crunch-home.svg");
+  background-image: url("../image/catalog/bread-crunch-home.svg");
 }
 
 .filter-header {
@@ -633,7 +633,7 @@ body {
 
 .catalog-filter-background {
   background-color: rgba(131, 179, 211, 1);
-  background-image: url("/image/filter-background.jpg");
+  background-image: url("../image/filter-background.jpg");
   width: 1200px;
   height: 408px;
   color: rgba(255, 255, 255, 1);
@@ -722,7 +722,7 @@ body {
   content: "";
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-image: url("/image/catalog/list-icon-arrow.svg");
+  background-image: url("../image/catalog/list-icon-arrow.svg");
 }
 
 .select-button:hover:not(:active) {
@@ -810,15 +810,15 @@ body {
 }
 
 .view-tile {
-  background-image: url("/image/catalog/mode-tile-icon.svg");
+  background-image: url("../image/catalog/mode-tile-icon.svg");
 }
 
 .view-slide {
-  background-image: url("/image/catalog/mode-slideshow-icon.svg");
+  background-image: url("../image/catalog/mode-slideshow-icon.svg");
 }
 
 .view-list {
-  background-image: url("/image/catalog/mode-list-icon.svg");
+  background-image: url("../image/catalog/mode-list-icon.svg");
 }
 
 .view-link[href]:hover {
@@ -979,7 +979,7 @@ body {
   background-repeat: repeat-x;
   background-position: 0 50%;
   background-size: 23px 17px;
-  background-image: url("/image/catalog/rating-star.svg");
+  background-image: url("../image/catalog/rating-star.svg");
 }
 
 .star-two {
@@ -1255,7 +1255,7 @@ body {
 }
 
 input[type="checkbox"]:checked + .control-mark {
-  background-image: url(/image/catalog/checked.svg);
+  background-image: url(../image/catalog/checked.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -1532,7 +1532,7 @@ input[type="number"]::-webkit-inner-spin-button {
   display: block;
   width: 53px;
   height: 53px;
-  background-image: url(/image/modal-close\ 1.svg);
+  background-image: url(../image/modal-close\ 1.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -1622,7 +1622,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-  background-image: url(/image/date\ 1.svg);
+  background-image: url(../image/date\ 1.svg);
   padding-right: 19px;
 }
 
@@ -1675,7 +1675,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(/image/plus.svg);
+  background-image: url(../image/plus.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1687,7 +1687,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(/image/minus.svg);
+  background-image: url(../image/minus.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -1730,7 +1730,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(/image/info-2.svg);
+  background-image: url(../image/info-2.svg);
   width: 1px;
   height: 9px;
 }
@@ -1759,7 +1759,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .modal-form-popover-text::before {
   content: "";
   position: absolute;
-  background-image: url(/image/popover-vector.svg);
+  background-image: url(../image/popover-vector.svg);
   width: 19px;
   height: 9px;
   top: -9px;
